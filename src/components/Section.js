@@ -22,7 +22,7 @@ function Section(props) {
             )}
           </ButtonGroup>
         </Fade>
-        <DownArrow src="images/down-arrow.svg" />
+        <DownArrow src="../images/down-arrow.svg" />
       </Buttons>
     </Wrap>
   );
@@ -34,7 +34,7 @@ const Wrap = styled.div`
   height: 100vh;
 
   background-size: cover;
-  background-image: ${(props) => `url("/images/${props.bgImage}")`};
+  background-image: ${(props) => `url("../images/${props.bgImage}")`};
 
   background-position: center;
   background-repeat: no-repeat;
